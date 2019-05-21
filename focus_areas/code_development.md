@@ -63,27 +63,28 @@ Goal **Efficiency**:
 * Question **Reviews**: How efficient is the project in reviewing proposed
  changes to the code, during a certain time period?
 
-  * Metric **Review_Duration**(Period): For how long proposed changes are
+  * Metric **Reviews_Duration**(Period): For how long proposed changes are
   reviewed before they are accepted.
-  * Metric **Review_Acceptance**(Period): How many reviews end accepting
+  (see [Reviews_Duration](../metrics/Reviews_Duration.md)).
+  * Metric **Reviews_Acceptance**(Period): How many reviews end accepting
   the code change.
-  * Metric **Review_Participants**(Period): How many persons participated in
+  * Metric **Reviews_Participants**(Period): How many persons participated in
   reviews of code changes.
-  * Metric: **Review_Backlog**(Period): How many reviews are still undecided
+  * Metric: **Reviews_Backlog**(Period): How many reviews are still undecided
   (proposed changes were neither accepted nor declined)?
-  * Summary metric: **Review_Acceptance_Ratio**(Period): Which fraction of
+  * Summary metric: **Reviews_Acceptance_Ratio**(Period): Which fraction of
   new proposals for changes are finally accepted after a review process?
-  * Summary metric: **Review_Throughput**(Period): How many proposals for
+  * Summary metric: **Reviews_Throughput**(Period): How many proposals for
    changes are decided after code review
    (either accepted or declined) with respect to the number of proposals submitted?
     
 * Question **Issues**: How efficient is the project in dealing with issues related to
 the source code, for issues proposed during a certain time period?
 
-  * Metric **Issue_Duration**(Period): Time since an issue is proposed until it is closed.
-  * Metric **Issue_Participants**(Period): How many persons participated in the discussion
+  * Metric **Issues_Duration**(Period): Time since an issue is proposed until it is closed.
+  * Metric **Issues_Participants**(Period): How many persons participated in the discussion
   of issues.
-  * Metric: **Issue_Backlog**(Period): How many issues are still open?
+  * Metric: **Issues_Backlog**(Period): How many issues are still open?
   * Summary metric: **Issue_Throughput**(Period): How many issues are closed
   with respect to the number of issues opened?
 
@@ -109,6 +110,7 @@ Activity | Issues  | [Issues_Closed](../metrics/Issues_Closed.md)
 Activity | Reviews | [Reviews](../metrics/Reviews.md)
 Activity | Reviews | [Reviews_Accepted](../metrics/Reviews_Accepted.md)
 Activity | Reviews | [Reviews_Declined](../metrics/Reviews_Declined.md)
+Activity | Reviews | [Reviews_Duration](../metrics/Reviews_Duration.md)
 
 
 ## Legacy metrics and questions
